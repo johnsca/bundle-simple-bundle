@@ -1,0 +1,10 @@
+bundle:
+  name: simple-bundle
+  namespace: kwmonroe
+  release: false
+  to-channel: beta
+charm-upgrade:
+  ubuntu:
+    from-channel: edge
+    release: false
+    to-channel: beta
